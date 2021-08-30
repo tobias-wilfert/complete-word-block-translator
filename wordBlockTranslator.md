@@ -69,6 +69,28 @@ motor = Motor('A')
 motor.run_to_position(0, 'counterclockwise')
 ```
 ## - Start Motor
+### - Base
+![SaM.b.png](./images/SaM.b.png)
+```python
+motor = Motor('A')
+
+motor.start(75)
+```
+### - Multiple Motors
+TODO: Check if start_tank or just start is correct
+![SaM.m.png](./images/SaM.m.png)
+```python
+motor_pair = MotorPair('A', 'E')
+
+motor_pair.start_tank(75, -75)
+```
+### - Counterclockwise
+![SaM.c.png](./images/SaM.c.png)
+```python
+motor = Motor('A')
+
+motor.start(-75)
+```
 ## - Stop Motor
 ## - Set Motor Speed
 ## - Motor Position
