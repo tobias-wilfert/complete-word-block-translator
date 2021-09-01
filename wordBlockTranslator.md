@@ -37,16 +37,16 @@ motor = Motor('A')
 
 motor.run_for_seconds(1, 75)
 ```
-## - Run Motor Go to Position
+## - Motor Go to Position
 ### - Base
-![RMGtP.b.png](./images/RMGtP.b.png)
+![MGtP.b.png](./images/MGtP.b.png)
 ```python
 motor = Motor('A')
 
 motor.run_to_position(0, 'shortest path')
 ```
 ### - Multiple Motors
-![RMGtP.m.png](./images/RMGtP.m.png)
+![MGtP.m.png](./images/MGtP.m.png)
 ```python
 motor_a = Motor('A')
 motor_e = Motor('E')
@@ -55,14 +55,14 @@ motor_a.run_to_position(0, 'shortest path')
 motor_e.run_to_position(0, 'shortest path')
 ```
 ### - Clockwise
-![RMGtP.c.png](./images/RMGtP.c.png)
+![MGtP.c.png](./images/MGtP.c.png)
 ```python
 motor = Motor('A')
 
 motor.run_to_position(0, 'clockwise')
 ```
 ### - Counterclockwise
-![RMGtP.cc.png](./images/RMGtP.cc.png)
+![MGtP.cc.png](./images/MGtP.cc.png)
 ```python
 motor = Motor('A')
 
@@ -137,6 +137,13 @@ motor = Motor('A')
 motor.get_speed()
 ```
 # Movement
+## - Move for Duration
+## - Move with Steering for Duration
+## - Start Moving with Steering
+## - Stop Moving
+## - Set Movement Speed
+## - Set Movement Motors
+## - Set 1 Motor Rotation to Distance Moved
 # Light
 # Sound
 # Events
