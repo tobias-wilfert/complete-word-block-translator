@@ -92,9 +92,50 @@ motor = Motor('A')
 motor.start(-75)
 ```
 ## - Stop Motor
+### - Base
+![SoM.b.png](./images/SoM.b.png)
+```python
+motor = Motor('A')
+
+motor.stop()
+```
+### - Multiple Motors
+![SoM.m.png](./images/SoM.m.png)
+```python
+motor_pair = MotorPair('A', 'E')
+
+motor_pair.stop()
+```
 ## - Set Motor Speed
+### - Base
+TODO: Check that this works 
+![SMS.b.png](./images/SMS.b.png)
+```python
+motor = Motor('A')
+
+motor.set_default_speed(75)
+```
+### - Multiple Motors
+![SMS.m.png](./images/SMS.m.png)
+```python
+motor_pair = MotorPair('A', 'E')
+
+motor_pair.set_default_speed(75)
+```
 ## - Motor Position
+![MP.png](./images/MP.png)
+```python
+motor = Motor('A')
+
+motor.get_position()
+```
 ## - Motor Speed
+![MS.png](./images/MS.png)
+```python
+motor = Motor('A')
+
+motor.get_speed()
+```
 # Movement
 # Light
 # Sound
