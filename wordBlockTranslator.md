@@ -77,7 +77,7 @@ motor = Motor('A')
 motor.start(75)
 ```
 ### - Multiple Motors
-TODO: Check if start_tank or just start is correct
+TODO: Check if start_tank or just start is correct  
 ![SaM.m.png](./images/SaM.m.png)
 ```python
 motor_pair = MotorPair('A', 'E')
@@ -108,7 +108,7 @@ motor_pair.stop()
 ```
 ## - Set Motor Speed
 ### - Base
-TODO: Check that this works 
+TODO: Check that this works  
 ![SMS.b.png](./images/SMS.b.png)
 ```python
 motor = Motor('A')
