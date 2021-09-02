@@ -272,6 +272,18 @@ motor_pair = MotorPair('A', 'B')
 motor_pair.set_motor_rotation(17.5, 'in')
 ```
 # Light
+## - Start Animation
+## - Play Animation until Done
+## - Turn On 5x5 Light Matrix for Seconds
+## - Turn On 5x5 Light Matrix
+## - Write on 5x5 Matrix
+## - Turn off Pixels
+## - Set Pixel Brightness
+## - Set Pixel
+## - Rotate Orientation
+## - Set Orientation
+## - Set Center Button Light
+## - Light Up Distance Sensor
 # Sound
 # Events
 # Control
