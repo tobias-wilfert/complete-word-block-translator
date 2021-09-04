@@ -273,17 +273,72 @@ motor_pair.set_motor_rotation(17.5, 'in')
 ```
 # Light
 ## - Start Animation
+![SA.png](images/Light/SA.png)  
+TODO: Needs custom python code
 ## - Play Animation until Done
+![SAuD.png](images/Light/SAuD.png)  
+TODO: Needs custom python code
 ## - Turn On 5x5 Light Matrix for Seconds
+![TOLMfS.png](images/Light/TOLMfS.png)  
+```python
+hub = MSHub()
+
+hub.light_matrix.show_image('HAPPY') 
+wait_for_seconds(2)
+hub.light_matrix.off()
+```
 ## - Turn On 5x5 Light Matrix
+![TOLM.png](images/Light/TOLM.png)  
+```python
+hub = MSHub()
+
+hub.light_matrix.show_image('HAPPY') 
+```
 ## - Write on 5x5 Matrix
+![WoM.png](images/Light/WoM.png)  
+```python
+hub = MSHub()
+
+hub.light_matrix.write('Hello')
+```
 ## - Turn off Pixels
+![ToP.png](images/Light/ToP.png)  
+```python
+hub = MSHub()
+
+hub.light_matrix.off()
+```
 ## - Set Pixel Brightness
+![SPB.png](images/Light/SPB.png)  
+TODO: Check if this block effects the 'Write' block   
+Python equivalent is to set the brightness when calling the methods
 ## - Set Pixel
+![SP.png](images/Light/SP.png)  
+```python
+hub = MSHub()
+
+hub.light_matrix.set_pixel(1, 1, 100)
+```
 ## - Rotate Orientation
+![RO.png](images/Light/RO.png)  
+TODO: Only possible with Mindstorms internal library
 ## - Set Orientation
+![RO.png](images/Light/SO.png)  
+TODO: Only possible with Mindstorms internal library
 ## - Set Center Button Light
+![SCBL.png](images/Light/SCBL.png)  
+```python
+hub = MSHub()
+
+hub.status_light.on('red')
+```
 ## - Light Up Distance Sensor
+![LUPDS.png](images/Light/LUDS.png)  
+```python
+distance_sensor = DistanceSensor('A')
+
+distance_sensor.light_up(100, 100, 100, 100)
+```
 # Sound
 # Events
 # Control
