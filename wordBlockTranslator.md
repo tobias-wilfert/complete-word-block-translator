@@ -467,3 +467,15 @@ distance_sensor.light_up(100, 100, 100, 100)
 ## - Round
 ## - Math Functions
 # Variables
+## - Variable
+## - Set Variable To
+## - Change Variable By
+## - List
+## - Add Item to List
+## - Delete Item in List
+## - Delete All Items in List
+## - Insert Item at Index in List
+## - Replace  item at Index in List with Another Item
+## - Value of Item in List
+## - Length of List
+## - List contains
