@@ -340,8 +340,96 @@ distance_sensor = DistanceSensor('A')
 distance_sensor.light_up(100, 100, 100, 100)
 ```
 # Sound
+## - Play Sound until Done
+![PSuD.png](images/Sound/PSuD.png)  
+```python
+
+```
+## - Start sound
+![Ss.png](images/Sound/Ss.png)  
+```python
+
+```
+## - Play Beep for Seconds
+![PBfS.png](images/Sound/PBfS.png)  
+```python
+
+```
+## - Start Playing Beep
+![SPB.png](images/Sound/SPB.png)  
+```python
+
+```
+## - Stop All Sounds
+![SAS.png](images/Sound/SAS.png)  
+```python
+
+```
+## - Change Pitch Effect by
+### - Base
+![CPEb.b.png](images/Sound/CPEb.b.png)  
+```python
+
+```
+### - Pan
+![CPEb.p.png](images/Sound/CPEb.p.png)  
+```python
+
+```
+## - Set Pitch Effect to
+### - Base
+![SPEt.b.png](images/Sound/SPEt.b.png)  
+```python
+
+```
+### - Pan
+![SPEt.p.png](images/Sound/SPEt.p.png)  
+```python
+
+```
+## - Clear Sound Effects
+![CSE.png](images/Sound/CSE.png)  
+```python
+
+```
+## - Change Volume
+![CV.png](images/Sound/CV.png)  
+```python
+
+```
+## - Set Volume
+![SV.png](images/Sound/SV.png)  
+```python
+
+```
+## - Volume
+![V.png](images/Sound/V.png)  
+```python
+
+```
 # Events
+## - When Program Starts
+## - When Color Is
+## - When Closer Than
+## - When Hub Orientation Is Up
+## - When Hub Shaken
+## - When Hub Button Pressed
+## - When
+## - When I Receive Message
+## - Broadcast Message
+## - Broadcast Message and Wait
+## - When Timer
+## - When Key Pressed
 # Control
+## - Wait for Seconds
+## - Wait Until
+## - Repeat Loop
+## - Forever Loop
+## - Repeat Until Loop
+## - If Then
+## - If Then Else
+## - Stop other stacks
+## - Stop
 # Sensors
 # Operators
 # Variables
