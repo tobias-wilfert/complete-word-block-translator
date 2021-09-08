@@ -780,24 +780,166 @@ TODO: Add Button Pressed
 ```
 # Operators
 ## - Pick Random Number
+![PRN.png](images/Operators/PRN.png)  
+```python
+
+```
 ## - Plus
+![P.png](images/Operators/P.png)  
+```python
+
+```
 ## - Minus
+![Mi.png](images/Operators/Mi.png)  
+```python
+
+```
 ## - Multiply
+![Mu.png](images/Operators/Mu.png)  
+```python
+
+```
 ## - Divide
-## - Greater Than
+![D.png](images/Operators/D.png)  
+```python
+
+```
 ## - Less Than
+![LT.png](images/Operators/LT.png)  
+```python
+
+```
 ## - Equal
+![E.png](images/Operators/E.png)  
+```python
+
+```
+## - Greater Than
+![GT.png](images/Operators/GT.png)  
+```python
+
+```
 ## - And
+![A.png](images/Operators/A.png)  
+```python
+
+```
 ## - Or
+![O.png](images/Operators/O.png)  
+```python
+
+```
 ## - Not
+![N.png](images/Operators/N.png)  
+```python
+
+```
 ## - Is Between
+![IB.png](images/Operators/IB.png)  
+```python
+
+```
 ## - Join Strings
+![JS.png](images/Operators/JS.png)  
+```python
+
+```
 ## - Letter of String
+![LetoS.png](images/Operators/LetoS.png)  
+```python
+
+```
 ## - Length of String
+![LenoS.png](images/Operators/LenoS.png)  
+```python
+
+```
 ## - String Contains
+![SC.png](images/Operators/SC.png)  
+```python
+
+```
 ## - Mod
+![Mo.png](images/Operators/Mo.png)  
+```python
+
+```
 ## - Round
+![R.png](images/Operators/R.png)  
+```python
+
+```
 ## - Math Functions
+### - Abs
+![M.a.png](images/Operators/M.a.png)  
+```python
+
+```
+### - Floor
+![M.f.png](images/Operators/M.f.png)  
+```python
+
+```
+### - Ceiling
+![M.ce.png](images/Operators/M.ce.png)  
+```python
+
+```
+### - Sqrt
+![M.sq.png](images/Operators/M.sq.png)  
+```python
+
+```
+### - Sin
+![M.s.png](images/Operators/M.s.png)  
+```python
+
+```
+### - Cos
+![M.c.png](images/Operators/M.c.png)  
+```python
+
+```
+### - Tan
+![M.t.png](images/Operators/M.t.png)  
+```python
+
+```
+### - Asin
+![M.as.png](images/Operators/M.as.png)  
+```python
+
+```
+### - Acos
+![M.ac.png](images/Operators/M.ac.png)  
+```python
+
+```
+### - Atan
+![M.at.png](images/Operators/M.at.png)  
+```python
+
+```
+### - Ln
+![M.ln.png](images/Operators/M.ln.png)  
+```python
+
+```
+### - Log
+![M.lo.png](images/Operators/M.lo.png)  
+```python
+
+```
+### - e^
+![M.e.png](images/Operators/M.e.png)  
+```python
+
+```
+### - 10^
+![M.te.png](images/Operators/M.te.png)  
+```python
+
+```
 # Variables
 ## - Variable
 ## - Set Variable To
