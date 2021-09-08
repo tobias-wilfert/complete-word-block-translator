@@ -540,14 +540,61 @@ TODO: Add Button Pressed
 ```
 # Control
 ## - Wait for Seconds
+![WfS.png](images/Control/WfS.png)  
+```python
+
+```
 ## - Wait Until
+![WU.png](images/Control/WU.png)  
+```python
+
+```
 ## - Repeat Loop
+![RL.png](images/Control/RL.png)  
+```python
+
+```
 ## - Forever Loop
+![FL.png](images/Control/FL.png)  
+```python
+
+```
 ## - Repeat Until Loop
+![RUL.png](images/Control/RUL.png)  
+```python
+
+```
 ## - If Then
+![IT.png](images/Control/IT.png)  
+```python
+
+```
 ## - If Then Else
+![ITE.png](images/Control/ITE.png)  
+```python
+
+```
 ## - Stop other stacks
+![Sos.png](images/Control/Sos.png)  
+```python
+
+```
 ## - Stop
+### - Base  
+![S.b.png](images/Control/S.b.png)  
+```python
+
+```
+### - This stack  
+![S.t.png](images/Control/S.t.png)  
+```python
+
+```
+### - Exit Program  
+![S.e.png](images/Control/S.e.png)  
+```python
+
+```
 # Sensors
 ## - Is color?
 ## - Color
