@@ -431,5 +431,20 @@ distance_sensor.light_up(100, 100, 100, 100)
 ## - Stop other stacks
 ## - Stop
 # Sensors
+## - Is color?
+## - Color
+## - Is reflected light?
+## - Reflected Light
+## - Is distance?
+## - Distance
+## - Is Hub orientation?
+## - Hub Pitch Roll Yaw Angle
+## - Set Hub Yaw Angle to 0
+## - Is Hub Button pressed?
+## - Key Pressed
+## - Timer
+## - Reset Timer
+## - Gesture
+## - Hub Orientation 
 # Operators
 # Variables
