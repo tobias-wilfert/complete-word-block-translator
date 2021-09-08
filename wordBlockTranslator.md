@@ -597,20 +597,187 @@ TODO: Add Button Pressed
 ```
 # Sensors
 ## - Is color?
+![Ic.png](images/Sensors/Ic.png)  
+```python
+
+```
 ## - Color
+![C.png](images/Sensors/C.png)  
+```python
+
+```
 ## - Is reflected light?
+### - Base
+![Irl.b.png](images/Sensors/Irl.b.png)  
+```python
+
+```
+### - Equal
+![Irl.e.png](images/Sensors/Irl.e.png)  
+```python
+
+```
+### - Greater than
+![Irl.g.png](images/Sensors/Irl.g.png)  
+```python
+
+```
 ## - Reflected Light
+![RL.png](images/Sensors/RL.png)  
+```python
+
+```
 ## - Is distance?
+### - Base
+![Id.b.png](images/Sensors/Id.b.png)  
+```python
+
+```
+### - Farther than
+![Id.f.png](images/Sensors/Id.f.png)  
+```python
+
+```
+### - Exactly at
+![Id.e.png](images/Sensors/Id.e.png)  
+```python
+
+```
+### - Centimeters
+![Id.c.png](images/Sensors/Id.c.png)  
+```python
+
+```
+### - Inches
+![Id.i.png](images/Sensors/Id.i.png)  
+```python
+
+```
 ## - Distance
-## - Is Hub orientation?
-## - Hub Pitch Roll Yaw Angle
-## - Set Hub Yaw Angle to 0
-## - Is Hub Button pressed?
-## - Key Pressed
-## - Timer
-## - Reset Timer
+### - Base
+![D.b.png](images/Sensors/D.b.png)  
+```python
+
+```
+### - Centimeters
+![D.c.png](images/Sensors/D.c.png)  
+```python
+
+```
+### - Inches
+![D.i.png](images/Sensors/D.i.png)  
+```python
+
+```
 ## - Gesture
-## - Hub Orientation 
+![G.png](images/Sensors/G.png)  
+```python
+
+```
+## - Is Hub Shaken?
+### - Base
+![IHS.b.png](images/Sensors/IHS.b.png)  
+```python
+
+```
+### - Tapped
+![IHS.t.png](images/Sensors/IHS.t.png)  
+```python
+
+```
+### - Falling
+![IHS.f.png](images/Sensors/IHS.f.png)  
+```python
+
+```
+## - Is Hub orientation?
+### - Base
+![IHo.b.png](images/Sensors/IHo.b.png)  
+```python
+
+```
+### - Back
+![IHo.back.png](images/Sensors/IHo.back.png)  
+```python
+
+```
+### - Top
+![IHo.t.png](images/Sensors/IHo.t.png)  
+```python
+
+```
+### - Bottom
+![IHo.bo.png](images/Sensors/IHo.bo.png)  
+```python
+
+```
+### - Right Side
+![IHo.r.png](images/Sensors/IHo.r.png)  
+```python
+
+```
+### - Left Side
+![IHo.l.png](images/Sensors/IHo.l.png)  
+```python
+
+```
+## - Hub Orientation
+![HO.png](images/Sensors/HO.png)  
+```python
+
+```
+## - Set Hub Yaw Angle to 0
+![SHYA.png](images/Sensors/SHYA.png)  
+```python
+
+```
+## - Is Hub Button pressed?
+### - Base
+![IHBp.b.png](images/Sensors/IHBp.b.png)  
+```python
+
+```
+### - Right
+![IHBp.ri.png](images/Sensors/IHBp.ri.png)  
+```python
+
+```
+### - Released
+![IHBp.re.png](images/Sensors/IHBp.re.png)  
+```python
+
+```
+## - Hub Pitch Roll Yaw Angle
+### - Base
+![HPRYA.b.png](images/Sensors/HPRYA.b.png)  
+```python
+
+```
+### - Roll
+![HPRYA.r.png](images/Sensors/HPRYA.r.png)  
+```python
+
+```
+### - Yaw
+![HPRYA.y.png](images/Sensors/HPRYA.y.png)  
+```python
+
+```
+## - Timer
+![T.png](images/Sensors/T.png)  
+```python
+
+```
+## - Reset Timer
+![RT.png](images/Sensors/RT.png)  
+```python
+
+```
+## - Key Pressed
+![KP.png](images/Sensors/KP.png)  
+```python
+
+```
 # Operators
 ## - Pick Random Number
 ## - Plus
