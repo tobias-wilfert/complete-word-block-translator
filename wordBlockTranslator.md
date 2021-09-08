@@ -409,17 +409,135 @@ distance_sensor.light_up(100, 100, 100, 100)
 ```
 # Events
 ## - When Program Starts
+![WPS.png](images/Events/WPS.png)  
+```python
+
+```
 ## - When Color Is
+![WCI.png](images/Events/WCI.png)  
+```python
+
+```
+TODO: Add Button Pressed
 ## - When Closer Than
+### - Base
+![WCT.b.png](images/Events/WCT.b.png)  
+```python
+
+```
+### - Farther than
+![WCT.f.png](images/Events/WCT.f.png)  
+```python
+
+```
+### - Exactly at
+![WCT.e.png](images/Events/WCT.e.png)  
+```python
+
+```
+### - Centimeters
+![WCT.c.png](images/Events/WCT.c.png)  
+```python
+
+```
+### - Inches
+![WCT.i.png](images/Events/WCT.i.png)  
+```python
+
+```
 ## - When Hub Orientation Is Up
+### - Base
+![WHOIU.b.png](images/Events/WHOIU.b.png)  
+```python
+
+```
+### - Back
+![WHOIU.back.png](images/Events/WHOIU.back.png)  
+```python
+
+```
+### - Top
+![WHOIU.t.png](images/Events/WHOIU.t.png)  
+```python
+
+```
+### - Bottom
+![WHOIU.bo.png](images/Events/WHOIU.bo.png)  
+```python
+
+```
+### - Right side
+![WHOIU.r.png](images/Events/WHOIU.r.png)  
+```python
+
+```
+### - Left side
+![WHOIU.l.png](images/Events/WHOIU.l.png)  
+```python
+
+```
 ## - When Hub Shaken
+### - Base
+![WHS.b.png](images/Events/WHS.b.png)  
+```python
+
+```
+### - Tapped
+![WHS.t.png](images/Events/WHS.t.png)  
+```python
+
+```
+### - Falling
+![WHS.f.png](images/Events/WHS.f.png)  
+```python
+
+```
 ## - When Hub Button Pressed
+### - Base
+![WHBP.b.png](images/Events/WHBP.b.png)  
+```python
+
+```
+### - Right
+![WHBP.ri.png](images/Events/WHBP.ri.png)  
+```python
+
+```
+### - Released
+![WHBP.re.png](images/Events/WHBP.re.png)  
+```python
+
+```
 ## - When
+![W.png](images/Events/W.png)  
+```python
+
+```
 ## - When I Receive Message
+![WIRM.png](images/Events/WIRM.png)  
+```python
+
+```
 ## - Broadcast Message
+![BM.png](images/Events/BM.png)  
+```python
+
+```
 ## - Broadcast Message and Wait
+![BMaW.png](images/Events/BMaW.png)  
+```python
+
+```
 ## - When Timer
+![WT.png](images/Events/WT.png)  
+```python
+
+```
 ## - When Key Pressed
+![WKP.png](images/Events/WKP.png)  
+```python
+
+```
 # Control
 ## - Wait for Seconds
 ## - Wait Until
