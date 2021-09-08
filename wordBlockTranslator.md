@@ -447,4 +447,23 @@ distance_sensor.light_up(100, 100, 100, 100)
 ## - Gesture
 ## - Hub Orientation 
 # Operators
+## - Pick Random Number
+## - Plus
+## - Minus
+## - Multiply
+## - Divide
+## - Greater Than
+## - Less Than
+## - Equal
+## - And
+## - Or
+## - Not
+## - Is Between
+## - Join Strings
+## - Letter of String
+## - Length of String
+## - String Contains
+## - Mod
+## - Round
+## - Math Functions
 # Variables
