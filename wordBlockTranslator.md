@@ -1049,76 +1049,77 @@ pow(,10)
 ## - Variable
 ![V.png](images/Variables/V.png)  
 ```python
-
+MyVariable
 ```
 ## - Set Variable To
 ![SVT.png](images/Variables/SVT.png)  
 ```python
-
+MyVariable = 0
 ```
 ## - Change Variable By
 ![CVB.png](images/Variables/CVB.png)  
 ```python
-
+MyVariable += 1
 ```
 ## - List
 ![L.png](images/Variables/L.png)  
 ```python
-
+MyList
 ```
 ## - Add Item to List
 ![AItL.png](images/Variables/AItL.png)  
 ```python
-
+MyList.append('thing')
 ```
 ## - Delete Item in List
 ![DIiL.png](images/Variables/DIiL.png)  
 ```python
-
+del MyList[1 - 1]
 ```
 ## - Delete All Items in List
 ![DAIiL.png](images/Variables/DAIiL.png)  
 ```python
-
+MyList.clear()
 ```
 ## - Insert Item at Index in List
 ![IIaIiL.png](images/Variables/IIaIiL.png)  
 ```python
-
+MyList.insert(1 - 1, 'thing')
 ```
 ## - Replace  item at Index in List with Another Item
 ![RIiL.png](images/Variables/RIiL.png)  
 ```python
-
+MyList[1 - 1] = 'thing'
 ```
 ## - Value of Item in List
 ![VoIiL.png](images/Variables/VoIiL.png)  
 ```python
-
+MyList[1 - 1]
 ```
 ## - Index Value of Item in List
 ![IVIL.png](images/Variables/IVIL.png)  
 ```python
-
+MyList.index('thing') + 1
 ```
 ## - Length of List
 ![LoL.png](images/Variables/LoL.png)  
 ```python
-
+len(MyList)
 ```
 ## - List contains
 ![LC.png](images/Variables/LC.png)  
 ```python
-
+'thing' in MyList
 ```
 # My Blocks
 ## - Define
 ![D.png](images/MyBlocks/D.png)  
 ```python
-
+def f():
+    # Blocks
 ```
 ## - Use
 ![U.png](images/MyBlocks/U.png)  
 ```python
-
+f()
 ```
