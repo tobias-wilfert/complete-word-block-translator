@@ -884,6 +884,7 @@ TODO Check if this is possible
 ```
 # Operators
 ## - Pick Random Number
+TODO: Find a way to get a random decimal number
 ![PRN.png](images/Operators/PRN.png)  
 ```python
 
@@ -891,158 +892,158 @@ TODO Check if this is possible
 ## - Plus
 ![P.png](images/Operators/P.png)  
 ```python
-
+4 + 2
 ```
 ## - Minus
 ![Mi.png](images/Operators/Mi.png)  
 ```python
-
+4 - 2
 ```
 ## - Multiply
 ![Mu.png](images/Operators/Mu.png)  
 ```python
-
+4 * 2
 ```
 ## - Divide
 ![D.png](images/Operators/D.png)  
 ```python
-
+4 / 2
 ```
 ## - Less Than
 ![LT.png](images/Operators/LT.png)  
 ```python
-
+42 < 100
 ```
 ## - Equal
 ![E.png](images/Operators/E.png)  
 ```python
-
+42 == 100
 ```
 ## - Greater Than
 ![GT.png](images/Operators/GT.png)  
 ```python
-
+42 > 100
 ```
 ## - And
 ![A.png](images/Operators/A.png)  
 ```python
-
+and
 ```
 ## - Or
 ![O.png](images/Operators/O.png)  
 ```python
-
+or
 ```
 ## - Not
 ![N.png](images/Operators/N.png)  
 ```python
-
+not
 ```
 ## - Is Between
 ![IB.png](images/Operators/IB.png)  
 ```python
-
+-10 <= 0 <= 10
 ```
 ## - Join Strings
 ![JS.png](images/Operators/JS.png)  
 ```python
-
+'apple' + 'banana'
 ```
 ## - Letter of String
 ![LetoS.png](images/Operators/LetoS.png)  
 ```python
-
+'apple'[1 - 1]
 ```
 ## - Length of String
 ![LenoS.png](images/Operators/LenoS.png)  
 ```python
-
+len('apple')
 ```
 ## - String Contains
 ![SC.png](images/Operators/SC.png)  
 ```python
-
+'a' in 'appple'
 ```
 ## - Mod
 ![Mo.png](images/Operators/Mo.png)  
 ```python
-
+4 % 2
 ```
 ## - Round
 ![R.png](images/Operators/R.png)  
 ```python
-
+int(4.2 + 0.5)
 ```
 ## - Math Functions
 ### - Abs
 ![M.a.png](images/Operators/M.a.png)  
 ```python
-
+abs()
 ```
 ### - Floor
 ![M.f.png](images/Operators/M.f.png)  
 ```python
-
+floor()
 ```
 ### - Ceiling
 ![M.ce.png](images/Operators/M.ce.png)  
 ```python
-
+ceil()
 ```
 ### - Sqrt
 ![M.sq.png](images/Operators/M.sq.png)  
 ```python
-
+sqrt()
 ```
 ### - Sin
 ![M.s.png](images/Operators/M.s.png)  
 ```python
-
+sin()
 ```
 ### - Cos
 ![M.c.png](images/Operators/M.c.png)  
 ```python
-
+cos()
 ```
 ### - Tan
 ![M.t.png](images/Operators/M.t.png)  
 ```python
-
+tan()
 ```
 ### - Asin
 ![M.as.png](images/Operators/M.as.png)  
 ```python
-
+asin()
 ```
 ### - Acos
 ![M.ac.png](images/Operators/M.ac.png)  
 ```python
-
+acos()
 ```
 ### - Atan
 ![M.at.png](images/Operators/M.at.png)  
 ```python
-
+atan()
 ```
 ### - Ln
 ![M.ln.png](images/Operators/M.ln.png)  
 ```python
-
+log()
 ```
 ### - Log
 ![M.lo.png](images/Operators/M.lo.png)  
 ```python
-
+log10()
 ```
 ### - e^
 ![M.e.png](images/Operators/M.e.png)  
 ```python
-
+pow(,e)
 ```
 ### - 10^
 ![M.te.png](images/Operators/M.te.png)  
 ```python
-
+pow(,10)
 ```
 # Variables
 ## - Variable
