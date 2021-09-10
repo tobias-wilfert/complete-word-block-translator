@@ -343,69 +343,90 @@ distance_sensor.light_up(100, 100, 100, 100)
 ## - Play Sound until Done
 ![PSuD.png](images/Sound/PSuD.png)  
 ```python
+app = App()
 
+app.play_sound('Cat Meow 1')
 ```
 ## - Start sound
 ![Ss.png](images/Sound/Ss.png)  
 ```python
+app = App()
 
+app.start_sound('Cat Meow 1')
 ```
 ## - Play Beep for Seconds
 ![PBfS.png](images/Sound/PBfS.png)  
 ```python
+hub = MSHub()
 
+hub.speaker.beep(60, 0.2)
 ```
 ## - Start Playing Beep
 ![SPB.png](images/Sound/SPB.png)  
 ```python
+hub = MSHub()
 
+hub.speaker.start_beep(60)
 ```
 ## - Stop All Sounds
 ![SAS.png](images/Sound/SAS.png)  
 ```python
+hub = MSHub()
 
+hub.speaker.stop()
 ```
 ## - Change Pitch Effect by
 ### - Base
 ![CPEb.b.png](images/Sound/CPEb.b.png)  
+TODO: Check if this can be done  
 ```python
 
 ```
 ### - Pan
 ![CPEb.p.png](images/Sound/CPEb.p.png)  
+TODO: Check if this can be done  
 ```python
 
 ```
 ## - Set Pitch Effect to
 ### - Base
 ![SPEt.b.png](images/Sound/SPEt.b.png)  
+TODO: Check if this can be done  
 ```python
 
 ```
 ### - Pan
 ![SPEt.p.png](images/Sound/SPEt.p.png)  
+TODO: Check if this can be done  
 ```python
 
 ```
 ## - Clear Sound Effects
 ![CSE.png](images/Sound/CSE.png)  
+TODO: Check if this can be done  
 ```python
 
 ```
 ## - Change Volume
 ![CV.png](images/Sound/CV.png)  
 ```python
+hub = MSHub()
 
+hub.speaker.set_volume(hub.speaker.get_volume() - 10)
 ```
 ## - Set Volume
 ![SV.png](images/Sound/SV.png)  
 ```python
+hub = MSHub()
 
+hub.speaker.set_volume(100)
 ```
 ## - Volume
 ![V.png](images/Sound/V.png)  
 ```python
+hub = MSHub()
 
+hub.speaker.get_volume()
 ```
 # Events
 ## - When Program Starts
