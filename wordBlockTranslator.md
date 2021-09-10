@@ -633,150 +633,209 @@ sys.exit()
 ## - Is color?
 ![Ic.png](images/Sensors/Ic.png)  
 ```python
+color_sensor = ColorSensor('A')
 
+color_sensor.get_color() == 'red'
 ```
+TODO: Check if get_color() is correct or wait_for_new_color()
 ## - Color
 ![C.png](images/Sensors/C.png)  
 ```python
+color_sensor = ColorSensor('A')
 
+color_sensor.get_color()
 ```
 ## - Is reflected light?
 ### - Base
 ![Irl.b.png](images/Sensors/Irl.b.png)  
 ```python
+color_sensor = ColorSensor('A')
 
+color_sensor.get_reflected_light() < 50
 ```
 ### - Equal
 ![Irl.e.png](images/Sensors/Irl.e.png)  
 ```python
+color_sensor = ColorSensor('A')
 
+color_sensor.get_reflected_light() == 50
 ```
 ### - Greater than
 ![Irl.g.png](images/Sensors/Irl.g.png)  
 ```python
+color_sensor = ColorSensor('A')
 
+color_sensor.get_reflected_light() > 50
 ```
 ## - Reflected Light
 ![RL.png](images/Sensors/RL.png)  
 ```python
+color_sensor = ColorSensor('A')
 
+color_sensor.get_reflected_light()
 ```
 ## - Is distance?
+TODO: Check if wait_for_distance is correct or get_distance
 ### - Base
 ![Id.b.png](images/Sensors/Id.b.png)  
 ```python
+distance_sensor = DistanceSensor('A')
 
+distance_sensor.get_distance_percentage() < 15
 ```
 ### - Farther than
 ![Id.f.png](images/Sensors/Id.f.png)  
 ```python
+distance_sensor = DistanceSensor('A')
 
+distance_sensor.get_distance_percentage() > 15
 ```
 ### - Exactly at
 ![Id.e.png](images/Sensors/Id.e.png)  
 ```python
+distance_sensor = DistanceSensor('A')
 
+distance_sensor.get_distance_percentage() == 15
 ```
 ### - Centimeters
 ![Id.c.png](images/Sensors/Id.c.png)  
 ```python
+distance_sensor = DistanceSensor('A')
 
+distance_sensor.get_distance_cm() < 15
 ```
 ### - Inches
 ![Id.i.png](images/Sensors/Id.i.png)  
 ```python
+distance_sensor = DistanceSensor('A')
 
+distance_sensor.get_distance_inches() < 15
 ```
 ## - Distance
 ### - Base
 ![D.b.png](images/Sensors/D.b.png)  
 ```python
+distance_sensor = DistanceSensor('A')
 
+distance_sensor.get_distance_percentage()
 ```
 ### - Centimeters
 ![D.c.png](images/Sensors/D.c.png)  
 ```python
+distance_sensor = DistanceSensor('A')
 
+distance_sensor.get_distance_cm()
 ```
 ### - Inches
 ![D.i.png](images/Sensors/D.i.png)  
 ```python
+distance_sensor = DistanceSensor('A')
 
+distance_sensor.get_distance_inches()
 ```
 ## - Gesture
 ![G.png](images/Sensors/G.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_gesture()
 ```
 ## - Is Hub Shaken?
 ### - Base
 ![IHS.b.png](images/Sensors/IHS.b.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_gesture() == 'shaken'
 ```
 ### - Tapped
 ![IHS.t.png](images/Sensors/IHS.t.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_gesture() == 'tapped'
 ```
 ### - Falling
 ![IHS.f.png](images/Sensors/IHS.f.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_gesture() == 'falling'
 ```
 ## - Is Hub orientation?
 ### - Base
 ![IHo.b.png](images/Sensors/IHo.b.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_orientation() == 'front'
 ```
 ### - Back
 ![IHo.back.png](images/Sensors/IHo.back.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_orientation() == 'back'
 ```
 ### - Top
 ![IHo.t.png](images/Sensors/IHo.t.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_orientation() == 'top'
 ```
 ### - Bottom
 ![IHo.bo.png](images/Sensors/IHo.bo.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_orientation() == 'down'
 ```
 ### - Right Side
 ![IHo.r.png](images/Sensors/IHo.r.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_orientation() == 'rightside'
 ```
 ### - Left Side
 ![IHo.l.png](images/Sensors/IHo.l.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_orientation() == 'leftside'
 ```
 ## - Hub Orientation
 ![HO.png](images/Sensors/HO.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_orientation()
 ```
 ## - Set Hub Yaw Angle to 0
 ![SHYA.png](images/Sensors/SHYA.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.reset_yaw_angle()
 ```
 ## - Is Hub Button pressed?
 ### - Base
 ![IHBp.b.png](images/Sensors/IHBp.b.png)  
 ```python
+hub = MSHub()
 
+hub.left_button.is_pressed()
 ```
 ### - Right
 ![IHBp.ri.png](images/Sensors/IHBp.ri.png)  
 ```python
+hub = MSHub()
 
+hub.right_button.is_pressed()
 ```
 ### - Released
+TODO: Check how this can be done with wait_until_pressed()
 ![IHBp.re.png](images/Sensors/IHBp.re.png)  
 ```python
 
@@ -785,29 +844,40 @@ sys.exit()
 ### - Base
 ![HPRYA.b.png](images/Sensors/HPRYA.b.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_pitch_angle()
 ```
 ### - Roll
 ![HPRYA.r.png](images/Sensors/HPRYA.r.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_roll_angle()
 ```
 ### - Yaw
 ![HPRYA.y.png](images/Sensors/HPRYA.y.png)  
 ```python
+hub = MSHub()
 
+hub.motion_sensor.get_yaw_angle()
 ```
 ## - Timer
 ![T.png](images/Sensors/T.png)  
 ```python
+timer = Timer()
 
+timer.now()
 ```
 ## - Reset Timer
 ![RT.png](images/Sensors/RT.png)  
 ```python
+timer = Timer()
 
+timer.reset()
 ```
 ## - Key Pressed
+TODO Check if this is possible
 ![KP.png](images/Sensors/KP.png)  
 ```python
 
