@@ -428,7 +428,8 @@ hub = MSHub()
 
 hub.speaker.get_volume()
 ```
-# Events
+# Events  
+TODO: Think about how to best approach these (probably threads)
 ## - When Program Starts
 ![WPS.png](images/Events/WPS.png)  
 ```python
@@ -563,39 +564,49 @@ TODO: Add Button Pressed
 ## - Wait for Seconds
 ![WfS.png](images/Control/WfS.png)  
 ```python
-
+wait_for_seconds(1)
 ```
 ## - Wait Until
 ![WU.png](images/Control/WU.png)  
 ```python
-
+wait_until(get_value_function, operator_function=<function equal_to>, target_value=True)
 ```
 ## - Repeat Loop
 ![RL.png](images/Control/RL.png)  
 ```python
-
+count = 0
+while count < 10:
+    # Blocks inside the c-block
+    count = count + 1
 ```
 ## - Forever Loop
 ![FL.png](images/Control/FL.png)  
 ```python
-
+while True:
+    # Blocks inside the c-block
 ```
 ## - Repeat Until Loop
 ![RUL.png](images/Control/RUL.png)  
 ```python
-
+while not condition:
+    # Blocks inside the c-block
 ```
 ## - If Then
 ![IT.png](images/Control/IT.png)  
 ```python
-
+if condition:
+    # Blocks inside the c-block
 ```
 ## - If Then Else
 ![ITE.png](images/Control/ITE.png)  
 ```python
-
+if condition:
+    # Blocks inside the c-block
+else:
+    # Blocks inside the c-block
 ```
 ## - Stop other stacks
+TODO: Think about how to approach these  
 ![Sos.png](images/Control/Sos.png)  
 ```python
 
@@ -614,7 +625,9 @@ TODO: Add Button Pressed
 ### - Exit Program  
 ![S.e.png](images/Control/S.e.png)  
 ```python
+import sys
 
+sys.exit()
 ```
 # Sensors
 ## - Is color?
